@@ -9,3 +9,6 @@ APIs used:
 - Posts: https://jsonplaceholder.typicode.com/posts?userId=${userId}
 
 ![Sequential vs Parallel Illustration](imges/seqVSparallel.png)
+
+
+## Live Demo [Click here](https://zahraessam.github.io/async-await-demo/)

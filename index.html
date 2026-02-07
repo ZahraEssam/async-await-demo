@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sequential vs Parallel Fetch</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Left side: Sequential -->
+    <div class="half sequential">
+      <h2>Sequential Fetch</h2>
+      <img src="imges/sequential.png" alt="Sequential Illustration" class="illustration">
+      <button onclick="fetchSequential()">Run Sequential Fetch</button>
+      <pre id="seqOutput"></pre>
+    </div>
+
+    <!-- Right side: Parallel -->
+    <div class="half parallel">
+      <h2>Parallel Fetch</h2>
+      <img src="imges/parallel.png" alt="Parallel Illustration" class="illustration">
+      <button onclick="fetchParallel()">Run Parallel Fetch</button>
+      <pre id="parOutput"></pre>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

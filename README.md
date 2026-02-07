@@ -8,4 +8,4 @@ APIs used:
 - Users: https://jsonplaceholder.typicode.com/users/${userId}
 - Posts: https://jsonplaceholder.typicode.com/posts?userId=${userId}
 
-![Sequential vs Parallel Illustration](imags/seqVSparallel.png)
+![Sequential vs Parallel Illustration](imges/seqVSparallel.png)
